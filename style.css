@@ -1,3 +1,63 @@
-.image_head{
-    width: 100%;
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 88px; /* 110% */
+    max-width: 586px;
+    margin-bottom: 66px;
+}
+
+header {
+    background: url(assets/hearder_back.png) no-repeat center;
+    background-size: cover;
+    min-height : 688px;
+    padding-top : 91px;
+}
+
+.container{
+    max-width: 1440px ;
+    margin: auto;
+
+}
+
+.button{
+    background: #FFFFFF;
+    padding: 16px;
+    display: flex;
+    width: 164px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    transition: 0.5s case;
+}
+
+.button:hover {
+    background: #403b3b;
+    color: white;
+}
+
+section{
+    background-color: white;
+}
+
+h2{
+    color: #1E1E1E;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px; /* 104.348% */
+    letter-spacing: 1.84px;
+    text-transform: uppercase;
 }
