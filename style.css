@@ -46,13 +46,21 @@ header {
     color: white;
 }
 
+.mouse{
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    max-width: 100%; /* Assurez-vous que l'image est responsive */
+    text-align: center;
+}
+
 section{
     background-color: white;
 }
 
-h2{
+h2 {
     color: #1E1E1E;
-    text-align: center;
+    /*text-align: center;*/
     font-family: Rubik;
     font-size: 46px;
     font-style: normal;
@@ -61,3 +69,85 @@ h2{
     letter-spacing: 1.84px;
     text-transform: uppercase;
 }
+
+h3 {
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px; /* 110% */
+}
+
+p {
+    color: #1E1E1E;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px; /* 145% */
+}
+
+.img_paragraphe {
+    display: flex;
+    align-items: center;
+}
+
+.paragraphe{
+    flex: 1;
+}
+
+section {
+    margin-bottom: 15px;
+}
+
+.indu {
+    width: auto;
+    height: 492px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #18302B;
+    text-align: center;
+}
+
+.indu h3{
+    color: #FFF;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px; /* 104.348% */
+    letter-spacing: 1.84px;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.icones{
+    display: flex;
+    margin-top: 150px;
+    gap: 150px;
+}
+
+.elipse {
+    background-color: #FFFFFF;
+    filter: drop-shadow(4px 15px 26px rgba(175, 152, 88, 0.12));
+    width: 108px;
+    height: 108px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.elipse img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
