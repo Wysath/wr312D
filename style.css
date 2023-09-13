@@ -49,8 +49,8 @@ header {
 .mouse{
     display: flex;
     justify-content: center; /* Centre horizontalement */
-    align-items: center; /* Centre verticalement */
-    max-width: 100%; /* Assurez-vous que l'image est responsive */
+    align-items: center;
+    max-width: 100%;
     text-align: center;
 }
 
@@ -105,32 +105,37 @@ section {
     width: auto;
     height: 492px;
     flex-shrink: 0;
-    display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     background-color: #18302B;
-    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 98px;
 }
 
-.indu h3{
+.indu h3 {
     color: #FFF;
     text-align: center;
     font-family: Rubik;
     font-size: 46px;
     font-style: normal;
     font-weight: 600;
-    line-height: 48px; /* 104.348% */
+    line-height: 48px;
     letter-spacing: 1.84px;
     text-transform: uppercase;
-    margin-top: 15px;
+
 }
 
-.icones{
+.frame{
+    margin-top: 96px;
+}
+
+.icones {
     display: flex;
-    margin-top: 150px;
-    gap: 150px;
+    margin-top: 40px;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .elipse {
@@ -142,12 +147,44 @@ section {
     border-radius: 50%;
     display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column; /* Place le texte en dessous de l'image */
     justify-content: center;
+    text-align: center;
+    padding: 10px;
 }
 
 .elipse img {
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 80%;
+    max-height: 80%;
 }
 
+.texte {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 530px;
+    margin-right: 500px;
+}
+
+.texte p{
+    color: #FFFFFF;
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    width: 1140px;
+    height: 604px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: url(assets/Rectangle_12.png), lightgray 0px -514.518px / 100% 263.582% no-repeat;
+    margin-bottom: 50px;
+}
